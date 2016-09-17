@@ -1,7 +1,8 @@
 body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
-  margin: 0; }
+  margin: 0;
+  background-color: #2d3e4f; }
 
 h1 {
   font-size: 36px;
@@ -9,7 +10,7 @@ h1 {
   margin: 0; }
 
 h2 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
   margin: 0; }
 
@@ -18,10 +19,17 @@ header {
   height: 100px;
   background-color: #2d3e4f;
   text-transform: uppercase; }
-  header .name {
+  header #fullname {
     float: left;
     margin-left: 3%;
     margin-top: 30px; }
+  header #initial {
+    float: left;
+    margin-left: 3%;
+    margin-top: 30px;
+    width: 40px; }
+  header img {
+    float: right; }
   header nav {
     float: right;
     margin-right: 3%;
@@ -41,9 +49,11 @@ header {
   background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%);
   /* Profile picture */ }
   .welcome #profile {
-    margin-top: 150px; }
+    margin-top: 100px;
+    width: 200px;
+    height: 200px; }
   .welcome h1 {
-    margin-top: 50px; }
+    margin-top: 25px; }
   .welcome h2 {
     margin-top: 25px; }
 
@@ -59,3 +69,47 @@ footer {
   font-size: 24px;
   font-weight: bold;
   margin-top: 100px; }
+
+@media (min-width: 320px) {
+  header #fullname {
+    display: none; }
+  header #initial {
+    display: block; }
+  header nav {
+    display: none; }
+  header img {
+    margin-right: 6%;
+    margin-top: 36px; }
+
+  .welcome {
+    height: 736px; }
+    .welcome h1 {
+      font-size: 20px; }
+    .welcome h2 {
+      font-size: 12px; }
+    .welcome .icons img {
+      margin-left: 12.5px;
+      margin-right: 12.5px; }
+
+  footer {
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: 14px; } }
+@media (min-width: 768px) {
+  header #initial {
+    display: none; }
+  header #fullname {
+    display: block; }
+
+  .welcome {
+    height: 900px;
+    /* Profile picture */ }
+    .welcome #profile {
+      margin-top: 150px;
+      width: 300px;
+      height: 300px; } }
+@media (min-width: 1024px) {
+  header nav {
+    display: block; }
+  header #more {
+    display: none; } }

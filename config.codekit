@@ -42,6 +42,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/more.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139,
+		"inputAbbreviatedPath": "\/images\/more.png",
+		"outputAbbreviatedPath": "\/images\/more.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/profile-pic.png": {
 		"fileType": 32768,
 		"ignore": 0,
