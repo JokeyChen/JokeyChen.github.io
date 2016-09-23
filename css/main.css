@@ -4,112 +4,79 @@ body {
   margin: 0;
   background-color: #2d3e4f; }
 
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0; }
-
-h2 {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0; }
-
-header {
-  width: 100%;
-  height: 100px;
-  background-color: #2d3e4f;
-  text-transform: uppercase; }
-  header #fullname {
-    float: left;
-    margin-left: 3%;
-    margin-top: 30px; }
-  header #initial {
-    float: left;
-    margin-left: 3%;
-    margin-top: 30px;
-    width: 40px; }
-  header img {
-    float: right; }
-  header nav {
-    float: right;
-    margin-right: 3%;
-    margin-top: 36px;
-    height: 28px; }
-    header nav a {
-      margin-left: 10px;
-      color: #ffffff;
-      text-decoration: none;
-      font-size: 24px;
-      font-weight: bold; }
-
-.welcome {
-  text-align: center;
-  width: 100%;
-  height: 900px;
-  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%);
-  /* Profile picture */ }
-  .welcome #profile {
-    margin-top: 100px;
-    width: 200px;
-    height: 200px; }
-  .welcome h1 {
-    margin-top: 25px; }
-  .welcome h2 {
-    margin-top: 25px; }
-
-.icons img {
-  width: 50px;
-  height: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 60px; }
-
-footer {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 100px; }
-
 @media (min-width: 320px) {
-  header #fullname {
-    display: none; }
-  header #initial {
-    display: block; }
-  header nav {
-    display: none; }
-  header img {
-    margin-right: 6%;
-    margin-top: 36px; }
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0; }
 
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0; }
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #2d3e4f;
+    text-transform: uppercase;
+    /* More option image */
+    /* Nav links */ }
+    header #fullname {
+      float: left;
+      margin-left: 3%;
+      margin-top: 30px;
+      display: none; }
+    header #initial {
+      float: left;
+      margin-left: 3%;
+      margin-top: 30px;
+      width: 40px;
+      display: block; }
+    header img {
+      margin-right: 6%;
+      margin-top: 36px;
+      float: right; }
+    header nav {
+      float: right;
+      margin-right: 3%;
+      margin-top: 36px;
+      height: 28px;
+      display: none; }
+      header nav a {
+        margin-left: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold; }
+
+  /* The welcome section */
   .welcome {
-    height: 736px; }
+    text-align: center;
+    width: 100%;
+    height: 636px;
+    background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
+    .welcome #profile {
+      margin-top: 20px;
+      width: 200px;
+      height: 200px; }
     .welcome h1 {
+      margin-top: 25px;
       font-size: 20px; }
     .welcome h2 {
+      margin-top: 25px;
       font-size: 12px; }
-    .welcome .icons img {
-      margin-left: 12.5px;
-      margin-right: 12.5px; }
+
+  /* Icons for GitHub, Instagram and Resume */
+  .icons img {
+    width: 50px;
+    height: 50px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-top: 200px; }
 
   footer {
-    margin-top: 75px;
+    text-align: center;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 14px; } }
-@media (min-width: 768px) {
-  header #initial {
-    display: none; }
-  header #fullname {
-    display: block; }
-
-  .welcome {
-    height: 900px;
-    /* Profile picture */ }
-    .welcome #profile {
-      margin-top: 150px;
-      width: 300px;
-      height: 300px; } }
-@media (min-width: 1024px) {
-  header nav {
-    display: block; }
-  header #more {
-    display: none; } }
