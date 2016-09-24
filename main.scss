@@ -9,6 +9,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: $bright;
   margin: 0;
+  background-image: $gradient;
 }
 
 /* Give the links a theme look */
@@ -35,7 +36,6 @@ h2 {
 header {
   width: 100%;
   height: $header-height;
-  background-color: $dark;
   text-transform: uppercase;
 }
 
@@ -62,13 +62,14 @@ header {
 }
 
 .main-area {
-  background-image: $gradient;
-  height: 100vh;
+  text-align: center;
+  min-height: 100vh;
+  // Needed for the sticky footer!!!
+  position: relative;
 }
 
 /* The welcome section */
 .welcome {
-  text-align: center;
   width: 100%;
 
   h1 {
@@ -95,12 +96,21 @@ header {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 50px;
+  // Prevent the footer from overlaying with the icons
+  margin-bottom: 50px;
 }
 
 footer {
-  text-align: center;
   font-weight: bold;
   font-size: 14px;
+  // Make it stick at bottom (need to add position: relative at container!!)
+  position: absolute;
+  bottom: 0;
+  // Center the footer
+  left: 0;
+  right: 0;
+  // Leave some negative space
+  margin-bottom: 20px;
 }
 
 /* Tablet */
