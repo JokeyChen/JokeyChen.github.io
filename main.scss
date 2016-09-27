@@ -25,6 +25,11 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+
+  // To fix the logo text size problem
+  a {
+    font-size: 36px;
+  }
 }
 
 h2 {
