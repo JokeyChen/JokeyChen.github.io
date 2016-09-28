@@ -19,6 +19,14 @@ a {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+  padding: 5px;
+}
+
+.nav-links a:hover {
+  background-color: $bright;
+  color: $dark;
+  border-radius: 5px;
+  border-width: 10px;
 }
 
 h1 {
@@ -103,6 +111,12 @@ header {
   margin-top: 50px;
   // Prevent the footer from overlaying with the icons
   margin-bottom: 50px;
+}
+
+// Add a little bit of hover effect on the icons
+.icons img:hover {
+  width: 53px;
+  height: 53px;
 }
 
 footer {

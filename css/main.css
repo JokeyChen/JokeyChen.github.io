@@ -12,7 +12,14 @@ a {
   color: #ffffff;
   text-decoration: none;
   font-size: 24px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 5px; }
+
+.nav-links a:hover {
+  background-color: #ffffff;
+  color: #2d3e4f;
+  border-radius: 5px;
+  border-width: 10px; }
 
 h1 {
   font-size: 36px;
@@ -80,6 +87,10 @@ header {
   margin-right: 25px;
   margin-top: 50px;
   margin-bottom: 50px; }
+
+.icons img:hover {
+  width: 53px;
+  height: 53px; }
 
 footer {
   font-weight: bold;
