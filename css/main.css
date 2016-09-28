@@ -16,10 +16,7 @@ a {
   padding: 5px; }
 
 .nav-links a:hover {
-  background-color: #ffffff;
-  color: #2d3e4f;
-  border-radius: 5px;
-  border-width: 10px; }
+  opacity: 0.5; }
 
 h1 {
   font-size: 36px;

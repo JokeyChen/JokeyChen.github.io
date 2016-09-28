@@ -23,10 +23,15 @@ a {
 }
 
 .nav-links a:hover {
-  background-color: $bright;
-  color: $dark;
-  border-radius: 5px;
-  border-width: 10px;
+  // Option 1:
+
+  // background-color: $bright;
+  // color: $dark;
+  // border-radius: 5px;
+  // border-width: 10px;
+
+  // Option 2:
+  opacity: 0.5;
 }
 
 h1 {
