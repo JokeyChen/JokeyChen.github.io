@@ -4,7 +4,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
   margin: 0;
-  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
+  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%);
+  position: relative; }
 
 /* Give the links a theme look */
 a {
@@ -58,8 +59,7 @@ header {
 
 .main-area {
   text-align: center;
-  min-height: 100vh;
-  position: relative; }
+  min-height: 100vh; }
 
 /* The welcome section */
 .welcome {
@@ -85,10 +85,6 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-.icons img:hover {
-  width: 53px;
-  height: 53px; }
-
 footer {
   font-weight: bold;
   font-size: 14px;
@@ -96,6 +92,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  text-align: center;
   margin-bottom: 20px; }
 
 /* Tablet */
