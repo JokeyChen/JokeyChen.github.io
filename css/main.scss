@@ -10,6 +10,8 @@ body {
   color: $bright;
   margin: 0;
   background-image: $gradient;
+  // Needed for the sticky footer!!!
+  position: relative;
 }
 
 /* Give the links a theme look */
@@ -82,8 +84,6 @@ header {
 .main-area {
   text-align: center;
   min-height: 100vh;
-  // Needed for the sticky footer!!!
-  position: relative;
 }
 
 /* The welcome section */
@@ -133,6 +133,7 @@ footer {
   // Center the footer
   left: 0;
   right: 0;
+  text-align: center;
   // Leave some negative space
   margin-bottom: 20px;
 }
