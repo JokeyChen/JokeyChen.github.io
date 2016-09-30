@@ -85,6 +85,9 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.contact-area {
+  text-align: center; }
+
 footer {
   font-weight: bold;
   font-size: 14px;
