@@ -20,14 +20,14 @@ a {
   opacity: 0.5; }
 
 h1 {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0; }
   h1 a {
     font-size: 36px; }
 
 h2 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: normal;
   /* To override the default style */
   margin: 0; }
@@ -64,11 +64,9 @@ header {
 .welcome {
   width: 100%; }
   .welcome h1 {
-    margin-top: 75px;
-    font-size: 20px; }
+    margin-top: 75px; }
   .welcome h2 {
-    margin-top: 25px;
-    font-size: 14px; }
+    margin-top: 25px; }
 
 .profile {
   margin-top: 50px;
@@ -99,6 +97,12 @@ footer {
 
 /* Tablet */
 @media (min-width: 540px) {
+  h1 {
+    font-size: 36px; }
+
+  h2 {
+    font-size: 24px; }
+
   /* Make initial disappear and fullname appear */
   .initial {
     display: none; }
@@ -113,11 +117,6 @@ footer {
     margin-top: 100px;
     width: 300px;
     height: 300px; }
-
-  .welcome h1 {
-    font-size: 36px; }
-  .welcome h2 {
-    font-size: 24px; }
 
   .icons img {
     margin-top: 100px; } }
