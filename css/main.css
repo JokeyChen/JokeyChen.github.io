@@ -58,8 +58,7 @@ header {
   display: none; }
 
 .main-area {
-  text-align: center;
-  min-height: 100vh; }
+  text-align: center; }
 
 /* The welcome section */
 .welcome {
