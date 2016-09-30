@@ -1,4 +1,4 @@
 # JokeyChen.github.io
 Personal Website
 
-Visit at https://jokeychen.github.io
+Visit at www.zuqichen.com
