@@ -56,10 +56,17 @@ header {
 .more {
   margin-right: 5%;
   margin-top: 36px;
-  float: right; }
+  float: right;
+  cursor: pointer; }
+
+.more:hover {
+  opacity: 0.5; }
 
 .nav-links {
-  display: none; }
+  padding-top: 75px; }
+  .nav-links a {
+    display: none;
+    text-align: right; }
 
 .main-area {
   text-align: center;
@@ -74,7 +81,7 @@ header {
     margin-top: 25px; }
 
 .profile {
-  margin-top: 50px;
+  padding-top: 100px;
   width: 200px;
   height: 200px; }
 

@@ -83,9 +83,19 @@ header {
   margin-right: 5%;
   margin-top: 36px;
   float: right;
+  cursor: pointer;
 }
+
+.more:hover {
+  opacity: 0.5;
+}
+
 .nav-links {
-  display: none;
+  padding-top: 75px;
+  a {
+    display: none;
+    text-align: right;
+  }
 }
 
 .main-area {
@@ -107,7 +117,7 @@ header {
 }
 
 .profile {
-  margin-top: 50px;
+  padding-top: 100px;
   width: 200px;
   height: 200px;
 }
