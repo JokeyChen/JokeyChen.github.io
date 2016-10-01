@@ -125,15 +125,25 @@ header {
 //   height: 53px;
 // }
 
+.portfolio-area {
+  color: $dark;
+  text-align: center;
+  padding-top: 50px;
+
+  .project {
+    text-align: left;
+  }
+}
+
 .contact-area {
   text-align: center;
   background-color: $dark;
   padding-top: 50px;
   padding-bottom: 50px;
+}
 
-  hr {
-    width: 200px;
-  }
+hr {
+  width: 200px;
 }
 
 // footer {
@@ -181,12 +191,10 @@ header {
   .icons img {
     margin-top: 100px;
   }
+}
 
-  .contact-area {
-    hr {
-      width: 300px;
-    }
-  }
+hr {
+  width: 300px;
 }
 
 /* Desktop */
@@ -201,9 +209,7 @@ header {
     margin-top: 35px;
     margin-right: 5%;
   }
-  .contact-area {
-    hr {
-      width: 400px;
-    }
+  hr {
+    width: 400px;
   }
 }

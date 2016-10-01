@@ -84,13 +84,21 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.portfolio-area {
+  color: #2d3e4f;
+  text-align: center;
+  padding-top: 50px; }
+  .portfolio-area .project {
+    text-align: left; }
+
 .contact-area {
   text-align: center;
   background-color: #2d3e4f;
   padding-top: 50px;
   padding-bottom: 50px; }
-  .contact-area hr {
-    width: 200px; }
+
+hr {
+  width: 200px; }
 
 /* Tablet */
 @media (min-width: 540px) {
@@ -116,10 +124,10 @@ header {
     height: 300px; }
 
   .icons img {
-    margin-top: 100px; }
+    margin-top: 100px; } }
+hr {
+  width: 300px; }
 
-  .contact-area hr {
-    width: 300px; } }
 /* Desktop */
 @media (min-width: 1024px) {
   /* Use full links instead of more button */
@@ -132,5 +140,5 @@ header {
     margin-top: 35px;
     margin-right: 5%; }
 
-  .contact-area hr {
+  hr {
     width: 400px; } }
