@@ -3,8 +3,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
-  margin: 0;
-  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
+  margin: 0; }
 
 /* Give the links a theme look */
 a {
@@ -18,15 +17,18 @@ a {
 .nav-links a:hover {
   opacity: 0.5; }
 
+header {
+  background-color: #2d3e4f; }
+
 h1 {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0; }
   h1 a {
     font-size: 36px; }
 
 h2 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: normal;
   /* To override the default style */
   margin: 0; }
@@ -58,18 +60,15 @@ header {
 
 .main-area {
   text-align: center;
-  min-height: 100vh;
-  position: relative; }
+  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
 
 /* The welcome section */
 .welcome {
   width: 100%; }
   .welcome h1 {
-    margin-top: 75px;
-    font-size: 20px; }
+    margin-top: 75px; }
   .welcome h2 {
-    margin-top: 25px;
-    font-size: 14px; }
+    margin-top: 25px; }
 
 .profile {
   margin-top: 50px;
@@ -85,21 +84,22 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-.icons img:hover {
-  width: 53px;
-  height: 53px; }
-
-footer {
-  font-weight: bold;
-  font-size: 14px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: 20px; }
+.contact-area {
+  text-align: center;
+  background-color: #2d3e4f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .contact-area hr {
+    width: 200px; }
 
 /* Tablet */
 @media (min-width: 540px) {
+  h1 {
+    font-size: 36px; }
+
+  h2 {
+    font-size: 24px; }
+
   /* Make initial disappear and fullname appear */
   .initial {
     display: none; }
@@ -115,13 +115,11 @@ footer {
     width: 300px;
     height: 300px; }
 
-  .welcome h1 {
-    font-size: 36px; }
-  .welcome h2 {
-    font-size: 24px; }
-
   .icons img {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+
+  .contact-area hr {
+    width: 300px; } }
 /* Desktop */
 @media (min-width: 1024px) {
   /* Use full links instead of more button */
@@ -132,4 +130,7 @@ footer {
     display: block;
     float: right;
     margin-top: 35px;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .contact-area hr {
+    width: 400px; } }
