@@ -172,10 +172,9 @@ header {
 }
 
 // Add a little bit of hover effect on the icons
-// .icons img:hover {
-//   width: 53px;
-//   height: 53px;
-// }
+.icons img:hover {
+  opacity: 0.5;
+}
 
 .portfolio-area {
   color: $dark;

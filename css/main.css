@@ -127,6 +127,9 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.icons img:hover {
+  opacity: 0.5; }
+
 .portfolio-area {
   color: #2d3e4f;
   padding-top: 50px;
