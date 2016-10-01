@@ -14,7 +14,7 @@ body {
 }
 
 /* Give the links a theme look */
-a {
+nav-links a, header a {
   margin-left: 10px;
   color: $bright;
   text-decoration: none;
@@ -53,6 +53,10 @@ h1 {
 h2 {
   font-size: 14px;
   font-weight: normal; /* To override the default style */
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -127,16 +131,37 @@ header {
 
 .portfolio-area {
   color: $dark;
-  text-align: center;
   padding-top: 50px;
 
-  .project {
-    text-align: left;
+  h1 {
+    text-align: center;
   }
 
   a {
     color: $dark;
   }
+}
+
+.project {
+  padding: 5%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tools {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.project-text {
+  font-size: 18px;
+  line-height: 150%;
 }
 
 .contact-area {

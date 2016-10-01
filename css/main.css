@@ -6,7 +6,7 @@ body {
   margin: 0; }
 
 /* Give the links a theme look */
-a {
+nav-links a, header a {
   margin-left: 10px;
   color: #ffffff;
   text-decoration: none;
@@ -31,6 +31,9 @@ h2 {
   font-size: 14px;
   font-weight: normal;
   /* To override the default style */
+  margin: 0; }
+
+p {
   margin: 0; }
 
 header {
@@ -86,12 +89,29 @@ header {
 
 .portfolio-area {
   color: #2d3e4f;
-  text-align: center;
   padding-top: 50px; }
-  .portfolio-area .project {
-    text-align: left; }
+  .portfolio-area h1 {
+    text-align: center; }
   .portfolio-area a {
     color: #2d3e4f; }
+
+.project {
+  padding: 5%; }
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
+.tools {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 10px; }
+
+.project-text {
+  font-size: 18px;
+  line-height: 150%; }
 
 .contact-area {
   text-align: center;
