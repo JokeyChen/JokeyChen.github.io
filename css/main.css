@@ -89,7 +89,8 @@ header {
 
 .portfolio-area {
   color: #2d3e4f;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .portfolio-area h1 {
     text-align: center; }
   .portfolio-area a {
@@ -97,6 +98,8 @@ header {
 
 .project {
   padding: 5%; }
+  .project img {
+    display: none; }
 
 .title {
   font-size: 18px;
@@ -146,12 +149,21 @@ hr {
     height: 300px; }
 
   .icons img {
-    margin-top: 100px; } }
-hr {
-  width: 300px; }
+    margin-top: 100px; }
 
+  .title {
+    font-size: 24px; }
+
+  .tools {
+    font-size: 16px; }
+
+  .project-text {
+    font-size: 20px; }
+
+  hr {
+    width: 300px; } }
 /* Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 910px) {
   /* Use full links instead of more button */
   .more {
     display: none; }
@@ -163,4 +175,10 @@ hr {
     margin-right: 5%; }
 
   hr {
-    width: 400px; } }
+    width: 400px; }
+
+  .project img {
+    max-height: 300px;
+    max-width: 450px;
+    float: right;
+    display: block; } }

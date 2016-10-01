@@ -132,6 +132,7 @@ header {
 .portfolio-area {
   color: $dark;
   padding-top: 50px;
+  padding-bottom: 50px;
 
   h1 {
     text-align: center;
@@ -144,6 +145,11 @@ header {
 
 .project {
   padding: 5%;
+
+  // Hide the image for small screens
+  img {
+    display: none;
+  }
 }
 
 .title {
@@ -220,14 +226,26 @@ hr {
   .icons img {
     margin-top: 100px;
   }
-}
 
-hr {
-  width: 300px;
+  .title {
+    font-size: 24px;
+  }
+
+  .tools {
+    font-size: 16px;
+  }
+
+  .project-text {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 300px;
+  }
 }
 
 /* Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 910px) {
   /* Use full links instead of more button */
   .more {
     display: none;
@@ -240,5 +258,14 @@ hr {
   }
   hr {
     width: 400px;
+  }
+
+  .project {
+    img {
+      max-height: 300px;
+      max-width: 450px;
+      float: right;
+      display: block;
+    }
   }
 }
