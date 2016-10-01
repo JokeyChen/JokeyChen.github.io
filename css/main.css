@@ -90,6 +90,8 @@ header {
   padding-top: 50px; }
   .portfolio-area .project {
     text-align: left; }
+  .portfolio-area a {
+    color: #2d3e4f; }
 
 .contact-area {
   text-align: center;
