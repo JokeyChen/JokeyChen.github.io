@@ -218,7 +218,6 @@ hr {
     width: 400px; }
 
   .project img {
-    max-height: 300px;
-    max-width: 450px;
+    width: 400px;
     float: right;
     display: block; } }
