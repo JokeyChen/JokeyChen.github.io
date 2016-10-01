@@ -9,8 +9,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: $bright;
   margin: 0;
-  // Needed for the sticky footer!!!
-  position: relative;
+  // // Needed for the sticky footer!!!
+  // position: relative;
 }
 
 /* Give the links a theme look */
@@ -134,64 +134,21 @@ header {
   hr {
     width: 200px;
   }
-
-  input, textarea, button {
-    border-color: $bright;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    -webkit-appearance: none;
-    background-color: transparent;
-    color: $bright;
-    padding-left: 10px;
-    margin-top: 40px;
-    width: 200px;
-  }
-
-  input {
-    height: 30px;
-  }
-
-  textarea {
-    height: 200px;
-  }
-
-  button {
-    background-color: $bright;
-    color: $dark;
-  }
-
-  // Change the color of placeholder text
-  ::-webkit-input-placeholder {
-    color: $bright;
-  }
-
-  :-moz-placeholder { /* Firefox 18- */
-     color: $bright;
-  }
-
-  ::-moz-placeholder {  /* Firefox 19+ */
-     color: $bright;
-  }
-
-  :-ms-input-placeholder {
-     color: $bright;
-  }
 }
 
-footer {
-  font-weight: bold;
-  font-size: 14px;
-  // Make it stick at bottom (need to add position: relative at container!!)
-  position: absolute;
-  bottom: 0;
-  // Center the footer
-  left: 0;
-  right: 0;
-  text-align: center;
-  // Leave some negative space
-  margin-bottom: 20px;
-}
+// footer {
+//   font-weight: bold;
+//   font-size: 14px;
+//   // Make it stick at bottom (need to add position: relative at container!!)
+//   position: absolute;
+//   bottom: 0;
+//   // Center the footer
+//   left: 0;
+//   right: 0;
+//   text-align: center;
+//   // Leave some negative space
+//   margin-bottom: 20px;
+// }
 
 /* Tablet */
 @media (min-width: 540px) {
@@ -224,6 +181,12 @@ footer {
   .icons img {
     margin-top: 100px;
   }
+
+  .contact-area {
+    hr {
+      width: 300px;
+    }
+  }
 }
 
 /* Desktop */
@@ -237,5 +200,10 @@ footer {
     float: right;
     margin-top: 35px;
     margin-right: 5%;
+  }
+  .contact-area {
+    hr {
+      width: 400px;
+    }
   }
 }

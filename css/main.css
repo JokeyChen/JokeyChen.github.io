@@ -3,8 +3,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
-  margin: 0;
-  position: relative; }
+  margin: 0; }
 
 /* Give the links a theme look */
 a {
@@ -92,44 +91,6 @@ header {
   padding-bottom: 50px; }
   .contact-area hr {
     width: 200px; }
-  .contact-area input, .contact-area textarea, .contact-area button {
-    border-color: #ffffff;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    -webkit-appearance: none;
-    background-color: transparent;
-    color: #ffffff;
-    padding-left: 10px;
-    margin-top: 40px;
-    width: 200px; }
-  .contact-area input {
-    height: 30px; }
-  .contact-area textarea {
-    height: 200px; }
-  .contact-area button {
-    background-color: #ffffff;
-    color: #2d3e4f; }
-  .contact-area ::-webkit-input-placeholder {
-    color: #ffffff; }
-  .contact-area :-moz-placeholder {
-    /* Firefox 18- */
-    color: #ffffff; }
-  .contact-area ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #ffffff; }
-  .contact-area :-ms-input-placeholder {
-    color: #ffffff; }
-
-footer {
-  font-weight: bold;
-  font-size: 14px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  margin-bottom: 20px; }
 
 /* Tablet */
 @media (min-width: 540px) {
@@ -155,7 +116,10 @@ footer {
     height: 300px; }
 
   .icons img {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+
+  .contact-area hr {
+    width: 300px; } }
 /* Desktop */
 @media (min-width: 1024px) {
   /* Use full links instead of more button */
@@ -166,4 +130,7 @@ footer {
     display: block;
     float: right;
     margin-top: 35px;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .contact-area hr {
+    width: 400px; } }
