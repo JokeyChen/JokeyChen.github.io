@@ -4,7 +4,6 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
   margin: 0;
-  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%);
   position: relative; }
 
 /* Give the links a theme look */
@@ -18,6 +17,9 @@ a {
 
 .nav-links a:hover {
   opacity: 0.5; }
+
+header {
+  background-color: #2d3e4f; }
 
 h1 {
   font-size: 20px;
@@ -58,7 +60,8 @@ header {
   display: none; }
 
 .main-area {
-  text-align: center; }
+  text-align: center;
+  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
 
 /* The welcome section */
 .welcome {
@@ -83,7 +86,40 @@ header {
   margin-bottom: 50px; }
 
 .contact-area {
-  text-align: center; }
+  text-align: center;
+  background-color: #2d3e4f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .contact-area hr {
+    width: 200px; }
+  .contact-area input, .contact-area textarea, .contact-area button {
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 200px; }
+  .contact-area input {
+    height: 30px; }
+  .contact-area textarea {
+    height: 200px; }
+  .contact-area button {
+    background-color: #ffffff;
+    color: #2d3e4f; }
+  .contact-area ::-webkit-input-placeholder {
+    color: #ffffff; }
+  .contact-area :-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff; }
+  .contact-area ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff; }
+  .contact-area :-ms-input-placeholder {
+    color: #ffffff; }
 
 footer {
   font-weight: bold;

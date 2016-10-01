@@ -9,7 +9,6 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: $bright;
   margin: 0;
-  background-image: $gradient;
   // Needed for the sticky footer!!!
   position: relative;
 }
@@ -34,6 +33,10 @@ a {
 
   // Option 2:
   opacity: 0.5;
+}
+
+header {
+  background-color: $dark;
 }
 
 h1 {
@@ -83,6 +86,7 @@ header {
 
 .main-area {
   text-align: center;
+  background-image: $gradient;
 }
 
 /* The welcome section */
@@ -123,6 +127,56 @@ header {
 
 .contact-area {
   text-align: center;
+  background-color: $dark;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  hr {
+    width: 200px;
+  }
+
+  input, textarea, button {
+    border-color: $bright;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    color: $bright;
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 200px;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  button {
+    background-color: $bright;
+    color: $dark;
+  }
+
+  // Change the color of placeholder text
+  ::-webkit-input-placeholder {
+    color: $bright;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: $bright;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: $bright;
+  }
+
+  :-ms-input-placeholder {
+     color: $bright;
+  }
 }
 
 footer {
