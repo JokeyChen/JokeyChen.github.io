@@ -14,7 +14,7 @@ body {
 }
 
 /* Give the links a theme look */
-a {
+nav-links a, header a {
   margin-left: 10px;
   color: $bright;
   text-decoration: none;
@@ -53,6 +53,10 @@ h1 {
 h2 {
   font-size: 14px;
   font-weight: normal; /* To override the default style */
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -125,15 +129,56 @@ header {
 //   height: 53px;
 // }
 
+.portfolio-area {
+  color: $dark;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h1 {
+    text-align: center;
+  }
+
+  a {
+    color: $dark;
+  }
+}
+
+.project {
+  padding: 5%;
+
+  // Hide the image for small screens
+  img {
+    display: none;
+  }
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tools {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.project-text {
+  font-size: 18px;
+  line-height: 150%;
+}
+
 .contact-area {
   text-align: center;
   background-color: $dark;
   padding-top: 50px;
   padding-bottom: 50px;
+}
 
-  hr {
-    width: 200px;
-  }
+hr {
+  width: 200px;
 }
 
 // footer {
@@ -182,15 +227,25 @@ header {
     margin-top: 100px;
   }
 
-  .contact-area {
-    hr {
-      width: 300px;
-    }
+  .title {
+    font-size: 24px;
+  }
+
+  .tools {
+    font-size: 16px;
+  }
+
+  .project-text {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 300px;
   }
 }
 
 /* Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 910px) {
   /* Use full links instead of more button */
   .more {
     display: none;
@@ -201,9 +256,16 @@ header {
     margin-top: 35px;
     margin-right: 5%;
   }
-  .contact-area {
-    hr {
-      width: 400px;
+  hr {
+    width: 400px;
+  }
+
+  .project {
+    img {
+      max-height: 300px;
+      max-width: 450px;
+      float: right;
+      display: block;
     }
   }
 }

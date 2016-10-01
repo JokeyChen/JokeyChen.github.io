@@ -6,7 +6,7 @@ body {
   margin: 0; }
 
 /* Give the links a theme look */
-a {
+nav-links a, header a {
   margin-left: 10px;
   color: #ffffff;
   text-decoration: none;
@@ -31,6 +31,9 @@ h2 {
   font-size: 14px;
   font-weight: normal;
   /* To override the default style */
+  margin: 0; }
+
+p {
   margin: 0; }
 
 header {
@@ -84,13 +87,43 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.portfolio-area {
+  color: #2d3e4f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .portfolio-area h1 {
+    text-align: center; }
+  .portfolio-area a {
+    color: #2d3e4f; }
+
+.project {
+  padding: 5%; }
+  .project img {
+    display: none; }
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
+.tools {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 10px; }
+
+.project-text {
+  font-size: 18px;
+  line-height: 150%; }
+
 .contact-area {
   text-align: center;
   background-color: #2d3e4f;
   padding-top: 50px;
   padding-bottom: 50px; }
-  .contact-area hr {
-    width: 200px; }
+
+hr {
+  width: 200px; }
 
 /* Tablet */
 @media (min-width: 540px) {
@@ -118,10 +151,19 @@ header {
   .icons img {
     margin-top: 100px; }
 
-  .contact-area hr {
+  .title {
+    font-size: 24px; }
+
+  .tools {
+    font-size: 16px; }
+
+  .project-text {
+    font-size: 20px; }
+
+  hr {
     width: 300px; } }
 /* Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 910px) {
   /* Use full links instead of more button */
   .more {
     display: none; }
@@ -132,5 +174,11 @@ header {
     margin-top: 35px;
     margin-right: 5%; }
 
-  .contact-area hr {
-    width: 400px; } }
+  hr {
+    width: 400px; }
+
+  .project img {
+    max-height: 300px;
+    max-width: 450px;
+    float: right;
+    display: block; } }
