@@ -1,0 +1,35 @@
+// Global Font
+body * {
+  font-family: $site-font, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+
+  // To fix the logo text size problem
+  a {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: normal; /* To override the default style */
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media (min-width: 540px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}

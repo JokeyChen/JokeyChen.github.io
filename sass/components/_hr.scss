@@ -1,0 +1,17 @@
+hr {
+  width: 200px;
+}
+
+/* Tablet */
+@media (min-width: 540px) {
+  hr {
+    width: 300px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 910px) {
+  hr {
+    width: 400px;
+  }
+}
