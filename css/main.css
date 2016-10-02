@@ -198,6 +198,12 @@ header {
     width: 400px;
     float: right;
     display: block; } }
+.contact-area {
+  text-align: center;
+  background-color: #2d3e4f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 hr {
   width: 200px; }
 
