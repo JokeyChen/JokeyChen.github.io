@@ -1,17 +1,17 @@
 hr {
-  width: 200px;
+  width: $hr-small-width;
 }
 
 /* Tablet */
-@media (min-width: 540px) {
+@media (min-width: $tablet-width) {
   hr {
-    width: 300px;
+    width: $hr-medium-width;
   }
 }
 
 /* Desktop */
-@media (min-width: 910px) {
+@media (min-width: $desktop-width) {
   hr {
-    width: 400px;
+    width: $hr-large-width;
   }
 }
