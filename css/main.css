@@ -171,7 +171,7 @@ header {
   padding-top: 20px;
   padding-bottom: 10px; }
   .title img:hover {
-    opacity: 0.9; }
+    opacity: 0.5; }
 
 .tools {
   font-style: italic;
@@ -181,12 +181,6 @@ header {
 .project-text {
   font-size: 18px;
   line-height: 150%; }
-
-.contact-area {
-  text-align: center;
-  background-color: #2d3e4f;
-  padding-top: 50px;
-  padding-bottom: 50px; }
 
 /* Tablet */
 @media (min-width: 540px) {

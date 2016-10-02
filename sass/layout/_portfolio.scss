@@ -1,7 +1,7 @@
 .portfolio-area {
   color: $dark;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: $section-padding-top;
+  padding-bottom: $section-padding-bottom;
 
   h1 {
     text-align: center;
@@ -13,7 +13,7 @@
 }
 
 .project {
-  padding: 5%;
+  padding: $project-padding;
 
   // Hide the image for small screens
   img {
@@ -22,55 +22,48 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: $project-title-font-size;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: $project-title-padding-top;
+  padding-bottom: $project-title-padding-bottom;
 
   img:hover {
-    opacity: 0.9;
+    opacity: $lower-opacity;
   }
 }
 
 .tools {
   font-style: italic;
-  font-size: 14px;
-  padding-bottom: 10px;
+  font-size: $project-tools-font-size;
+  padding-bottom: $project-tools-padding-bottom;
 }
 
 .project-text {
-  font-size: 18px;
-  line-height: 150%;
-}
-
-.contact-area {
-  text-align: center;
-  background-color: $dark;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  font-size: $project-text-font-size;
+  line-height: $project-text-line-height;
 }
 
 /* Tablet */
-@media (min-width: 540px) {
+@media (min-width: $tablet-width) {
 
   .title {
-    font-size: 24px;
+    font-size: $project-title-medium-font-size;
   }
 
   .tools {
-    font-size: 16px;
+    font-size: $project-tools-medium-font-size;
   }
 
   .project-text {
-    font-size: 20px;
+    font-size: $project-text-medium-font-size;
   }
 }
 
 /* Desktop */
-@media (min-width: 910px) {
+@media (min-width: $desktop-width) {
   .project {
     img {
-      width: 400px;
+      width: $project-image-width;
       float: right;
       display: block;
     }
