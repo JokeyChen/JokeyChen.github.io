@@ -1,13 +1,15 @@
-/* Global Variables */
+// Color
 $dark: #2d3e4f;
 $bright: #ffffff;
-$header-height: 100px;
 $gradient: linear-gradient(to bottom, $dark, rgba(0, 0, 0, 0.9) 97%);
-$site-font: 'Quicksand', sans-serif;
-$lower-opacity: 0.5;
-$tablet-width: 540px;
-$desktop-width: 910px;
 
+// Font family
+$site-font: 'Quicksand', sans-serif;
+
+// Opacity
+$lower-opacity: 0.5;
+
+// Font size
 $logo-font-size: 36px;
 $h1-font-size: 20px;
 $h2-font-size: 14px;
@@ -20,10 +22,15 @@ $project-title-medium-font-size: 24px;
 $project-tools-medium-font-size: 16px;
 $project-text-medium-font-size: 20px;
 
+// Horizontal rule
 $hr-small-width: 200px;
 $hr-medium-width: 300px;
 $hr-large-width: 400px;
 
+// Width and height
+$tablet-width: 540px;
+$desktop-width: 910px;
+$header-height: 100px;
 $project-image-width: 400px;
 $profile-width: 200px;
 $profile-height: 200px;
@@ -32,6 +39,7 @@ $profile-medium-height: 300px;
 $social-icon-width: 50px;
 $social-icon-height: 50px;
 
+// Padding
 $section-padding-top: 50px;
 $section-padding-bottom: 50px;
 $intro-text-padding-top: 75px;
@@ -46,4 +54,5 @@ $social-icon-padding-right: 15px;
 $social-icon-padding-top: 50px;
 $social-icon-padding-bottom: 50px;
 
+// Line height
 $project-text-line-height: 150%;
