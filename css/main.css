@@ -90,17 +90,8 @@ header {
   display: block; }
 
 /* Change opacity of dropdown links on hover */
-.dropdown-content a:hover {
-  opacity: 0.5; }
-
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block; }
-
 /* Change the opacity of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  opacity: 0.5; }
-
 .main-area {
   text-align: center;
   background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
