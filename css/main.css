@@ -118,8 +118,7 @@ header {
 /* The welcome section */
 .welcome {
   text-align: center;
-  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%);
-  width: 100%; }
+  background-image: linear-gradient(to bottom, #2d3e4f, rgba(0, 0, 0, 0.9) 97%); }
   .welcome h1 {
     margin-top: 75px; }
   .welcome h2 {
