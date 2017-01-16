@@ -1,5 +1,5 @@
 # Zuqi Chen's Personal Website
 
-Milestone 1.0 (MVP)
+Version 2.0.0
 
 Visit at www.zuqichen.com
