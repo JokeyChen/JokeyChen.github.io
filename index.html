@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="author" content="Zuqi Chen">
+
+    <title>Zuqi Chen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/main.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Zuqi Chen</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="https://drive.google.com/open?id=0B1fIprCw026-UVVNYUx0NTA5Qkk">Résumé</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.jpg" alt="Photo of me">
+                    <div class="intro-text">
+                        <span class="name">Zuqi Chen</span>
+                        <hr class="star-light">
+                        <span class="skills">I am a <span class="skills-description"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>Portfolio Website</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/portfolio-website.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>UCSD Shuttle API</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ucsd.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>Tic Tac Toe Game</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tic-tac-toe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>GradeSource Checker</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/gradesource.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>6 Degress of Kevin Bacon</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/6-degrees.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>Snake Game</p>
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/snake-game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Hi. My name is Zuqi Chen. I am a third year student studying Computer Science at UC San Diego. I am currently looking for software development and full stack web development internship for summer 2017.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>My favorite things other than programming are music, soccer, and Rubik's Cube. I can solve a Rubik's Cube in 12 seconds on average. You may also check out my Instagram for my photography work.</p>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-lg-offset-3 text-center">
+                  <a href="https://youtu.be/cBU1LnJHIPM" class="btn btn-lg btn-outline">
+                      <i class="fa fa-cube"></i> Rubik's Cube
+                  </a>
+              </div>
+              <div class="col-lg-3 text-center">
+                  <a href="https://www.instagram.com/jokeychen/" class="btn btn-lg btn-outline">
+                      <i class="fa fa-camera"></i> Photography
+                  </a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <form action="https://formspree.io/your@email.com"
+                      method="POST">
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Your Name</label>
+                            <input type="text" class="form-control" placeholder="Your name" name="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Your Email</label>
+                            <input type="email" class="form-control" placeholder="Your email" name="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Your Message</label>
+                            <textarea rows="5" class="form-control" placeholder="Your message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <input type="submit" value="Send" class="btn btn-success btn-lg">
+                        </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>San Diego, CA, United States</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Get In Touch</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/JokeyChen" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/jokeychen/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/zuqi-chen-2ab61b109" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About This Website</h3>
+                        <p>This website is mobile first and fully responsive. It uses bootstrap to stylize the pages and it is hosted on GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Zuqi Chen 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Portfolio Website</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/portfolio-website.png" class="img-responsive img-centered" alt="">
+                            <p>Version 2.0.0 of my personal website. It is a mobile-first responsive static site using plain HTML, CSS, and JavaScript. It uses bootstrap to quickly stylize the pages. It is hosted on GitHub Pages. I am currently working on a blogging feature using Jekyll.</p>
+                            <p><a href="https://github.com/JokeyChen/JokeyChen.github.io">View on GitHub</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>HTML, CSS, JS, BootStrap, less, Jekyll, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>September 2016 - Present
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>UCSD Shuttle API</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/ucsd.png" class="img-responsive img-centered" alt="">
+                            <p>This experimental API scrapes the data from UCSD Shuttle website then outputs data as JSON. It stores data on the server using simple package "node-persist" for later use. It follows the RESTful design pattern and is deployed on Heroku.</p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>Node.js, Express.js, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>October 2016
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tic Tac Toe Game</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/tic-tac-toe.png" class="img-responsive img-centered" alt="">
+                            <p>A command line version of the Tic Tac Toe game. It uses plain Ruby. It is the first game I design from scratch and I plan to work on a web version.</p>
+                            <p><a href="https://github.com/JokeyChen/tic-tac-toe">View on GitHub</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>Ruby, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>August 2016
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>GradeSource Checker</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gradesource.png" class="img-responsive img-centered" alt="">
+                            <p>A script to automatically check the update on GradeSource and notify users via emails. It uses BeautifulSoup to parse the HTML and logs the update to a file. Users can schedule the script to run every 15 minutes using Linux Crontab. They can also configure the program easily using a setup script.</p>
+                            <p><a href="https://github.com/JokeyChen/GradeSourceChecker">View on GitHub</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>Python, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>March 2016
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>6 Degrees of Kevin Bacon<br>(academic)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/6-degrees.png" class="img-responsive img-centered" alt="">
+                            <p>A school project exploring the degrees of separation between Hollywood actors that act in the same movies. Based on given parameters, it finds the earliest year two actors collaborated. Given the huge list of actors parsed from the IMDB database, my teammate and I implement this program using graphs and unions, which dramatically reduces the running time.</p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>C++, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>June 2016
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Snake Game<br>(academic)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/snake-game.png" class="img-responsive img-centered" alt="">
+                            <p>A basic game consists of a GUI (Swing) and 6 different classes. The user controls the snake and tries to avoid obstacles. The game increases the speed of snake after a certain amount of time so that it gets harder over time.</p>
+                            <ul class="list-inline item-details">
+                                <li>Tools:
+                                    <strong>Java, Git
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                  <strong>March 2015
+                                  </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/main.min.js"></script>
+
+    <!-- Typer effect for description text -->
+    <script src="js/typed.js"></script>
+    <script>
+      $(function(){
+          $(".skills-description").typed({
+            strings: ["software engineer.", "full stack web developer.", "travel photographer.", "daydreamer. :)"],
+            cursorChar: "_",
+            startDelay: 500,
+            backDelay: 1000,
+            typeSpeed: 30,
+            loop: true
+          });
+      });
+    </script>
+</body>
+
+</html>
