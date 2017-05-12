@@ -1,0 +1,135 @@
+{
+  "projects": {
+    "gsjs": {
+      "date": "April 2017",
+      "name": "gsjs (GradeSource web scraper)",
+      "tools": "Node.js, ava",
+      "bullets": [
+        "Get course info and grades from given GradeSource url",
+        "Output data as JSON",
+        "Test Driven Development (TDD) using ava test framework",
+        "Hundreds of downloads on npm"
+      ],
+      "img": "/images/gsjs.png",
+      "url": "https://github.com/JokeyChen/gsjs"
+    },
+    "portfolio-website": {
+      "date": "May 2017",
+      "name": "Personal Portfolio Website",
+      "tools": "HTML, CSS (Sass), JavaScript, Harp",
+      "bullets": [
+        "Mobile-first and responsive static site",
+        "Use Sass to preprocess the stylesheets",
+        "Use Animate.css to move elements around",
+        "Use JavaScript for some fun visual elements",
+        "Hosted on GitHub Pages"
+      ],
+      "img": "/images/personal-website.png",
+      "url": "https://github.com/JokeyChen/JokeyChen.github.io"
+    },
+    "gradebook-api": {
+      "date": "March 2017",
+      "name": "GradeBook Rest API",
+      "tools": "Node.js, Express.js, Firebase",
+      "bullets": [
+        "Perform CRUD operations on users and their grades",
+        "Store normalized data on Firebase Realtime database",
+        "Authenticate clients by JSON web token (JWT)",
+        "Working on the front end using Vue.js"
+      ],
+      "img": "/images/gradebook-api.png",
+      "url": "https://github.com/JokeyChen/gradebook-api"
+    },
+    "tic-tac-toe": {
+      "date": "July 2016",
+      "name": "Tic Tac Toe Game",
+      "tools": "Ruby",
+      "bullets": [
+        "A command line version of the Tic Tac Toe game",
+        "Use plain Ruby",
+        "Design from scratch"
+      ],
+      "img": "/images/tic-tac-toe.png",
+      "url": "https://github.com/JokeyChen/tic-tac-toe"
+    },
+    "six-degree": {
+      "date": "May 2016 - June 2016",
+      "name": "6 Degrees of Kevin Bacon (academic)",
+      "tools": "C++",
+      "bullets": [
+        "Explore the degrees of separation between Hollywood actors that act in the same movies",
+        "Find the earliest year two actors collaborated",
+        "Use a huge actor lists parsed from IMDB database",
+        "Implement using graphs and unions, which drastically reduce the running time"
+      ],
+      "img": "/images/6-degrees.png"
+    }
+  },
+  "education": {
+    "ucsd": {
+      "date": "September 2014 - December 2018 (expected)",
+      "name": "University of California, San Diego",
+      "major": "B.S. Computer Science",
+      "gpa": "3.5 / 4.0",
+      "courses": [
+        "Introduction to Computer Science and OOP: Java",
+        "Basic Data Structures and Object-Oriented Design",
+        "Advanced Data Structure",
+        "Design and Analysis of Algorithms",
+        "Software Engineering",
+        "Computer Organization and Systems Programming",
+        "Principles of Computer Operating Systems",
+        "Programming Languages: Principles and Paradigms",
+        "Intro to Artificial Intelligence: Search and Reasoning"
+      ]
+    }
+  },
+  "experience": {
+    "tutor": {
+      "date": "March 2016 - Present",
+      "name": "Undergraduate CSE Tutor for Prof. Rick Ord",
+      "company": "Computer Science and Engineering @ UC San Diego",
+      "description": "Tutoring for CSE 30: Computer Architecture and System Programming and CSE 11: Introduction to Computer Science and OOP: Java",
+      "bullets": [
+        "Guide students through their SPARC assembly, C, and Java programming assignments",
+        "Proctor quizzes and exams",
+        "Grade students programming assignments"
+      ]
+    }
+  },
+  "skills": {
+    "programming": {
+      "name": "Programming Languages & Tools",
+      "bullets": [
+        "Java",
+        "Python",
+        "C/C++",
+        "HTML, CSS, JavaScript",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "Vue.js",
+        "Ruby",
+        "Firebase",
+        "SPARC Assembly",
+        "Unix Shell Script",
+        "Agile Development"
+      ]
+    },
+    "design-photography": {
+      "name": "Design & Photography",
+      "bullets": [
+        "Adobe Lightroom",
+        "Adobe Photoshop",
+        "Sketch"
+      ]
+    },
+    "others": {
+      "name": "Others",
+      "bullets": [
+        "Rubik's Cube",
+        "Piano"
+      ]
+    }
+  }
+}

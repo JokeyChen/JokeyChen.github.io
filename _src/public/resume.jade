@@ -1,0 +1,87 @@
+h1.has-text-centered Resume
+section.section.resume-page
+  .container.animated.fadeInLeft
+    section.section#project
+      h1.title Project
+      hr
+      .content
+        .columns.is-multiline
+          for project in public._data.projects
+            .column.is-one-third
+              .card
+                .header.card-header
+                  p.card-header-title #{project.name}
+                .card-image
+                  figure.image.is-4by3
+                    img(src="#{project.img}" alt="project image")
+                .card-content
+                  .content 
+                    for tool in project.tools.split(',')
+                      span.tag #{tool}
+                    ul
+                      for bullet in project.bullets
+                        li #{bullet}
+                      
+                    small #{project.date}
+                
+                if project.url    
+                  footer.card-footer
+                    a.card-footer-item(href="#{project.url}") View on GitHub
+                    
+    section.section#education
+      h1.title Education
+      hr
+      .content
+        .columns
+          for edu in public._data.education
+            .column
+              .card
+                .header.card-header
+                  p.card-header-title #{edu.name}
+                .card-content
+                  .content 
+                    p Major: #{edu.major}
+                    p GPA: #{edu.gpa}
+                    p Related coursework:
+                    ul
+                      for course in edu.courses
+                        li #{course}
+                    small #{edu.date}
+                
+      
+    section.section#experience
+      h1.title Experience
+      hr
+      .content
+        .columns
+          for exp in public._data.experience
+            .column
+              .card
+                .header.card-header
+                  p.card-header-title #{exp.name}
+                .card-content
+                  .content 
+                    p #{exp.company}
+                    p #{exp.description}
+                    ul
+                      for bullet in exp.bullets
+                        li #{bullet}
+                    small #{exp.date}
+    
+    section.section#skills
+      h1.title Skills
+      hr
+      .content
+        .columns
+          for skill in public._data.skills
+            .column.is-one-third
+              .card
+                .header.card-header
+                  p.card-header-title #{skill.name}
+                .card-content
+                  .content
+                    for bullet in skill.bullets
+                      span.tag #{bullet}
+
+    .content.has-text-centered
+      a(href="https://drive.google.com/file/d/0B1fIprCw026-UVVNYUx0NTA5Qkk/view") Download PDF

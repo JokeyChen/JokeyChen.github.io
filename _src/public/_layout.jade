@@ -1,0 +1,25 @@
+doctype
+html
+  head
+    title #{title}
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="/css/vendors/bulma.css")
+    link(rel="stylesheet" href="/css/vendors/animate.css")
+    link(rel="stylesheet" href="/css/main.css")
+  body
+    != partial("_shared/navbar")
+    != yield
+    script(type="text/javascript" src="/js/toggle-menu.js")
+    script(type="text/javascript" src="/js/typed.min.js")
+    //- Only show typer effect on index page
+    if current.source == 'index'
+      script.
+        document.addEventListener("DOMContentLoaded", function(){
+          Typed.new("#me", {
+            strings: ["software engineer.", "web developer.", "travel photographer."],
+            startDelay: 1000,
+            backDelay: 2000,
+            typeSpeed: 30,
+            loop: true
+          });
+        });
