@@ -10,7 +10,7 @@
         "Test Driven Development (TDD) using ava test framework",
         "Hundreds of downloads on npm"
       ],
-      "img": "/images/gsjs.png",
+      "img": "/assets/gsjs.png",
       "url": "https://github.com/JokeyChen/gsjs"
     },
     "portfolio-website": {
@@ -24,7 +24,7 @@
         "Use JavaScript for some fun visual elements",
         "Hosted on GitHub Pages"
       ],
-      "img": "/images/personal-website.png",
+      "img": "/assets/personal-website.png",
       "url": "https://github.com/JokeyChen/JokeyChen.github.io"
     },
     "gradebook-api": {
@@ -37,7 +37,7 @@
         "Authenticate clients by JSON web token (JWT)",
         "Working on the front end using Vue.js"
       ],
-      "img": "/images/gradebook-api.png",
+      "img": "/assets/gradebook-api.png",
       "url": "https://github.com/JokeyChen/gradebook-api"
     },
     "tic-tac-toe": {
@@ -49,7 +49,7 @@
         "Use plain Ruby",
         "Design from scratch"
       ],
-      "img": "/images/tic-tac-toe.png",
+      "img": "/assets/tic-tac-toe.png",
       "url": "https://github.com/JokeyChen/tic-tac-toe"
     },
     "six-degree": {
@@ -62,7 +62,7 @@
         "Use a huge actor lists parsed from IMDB database",
         "Implement using graphs and unions, which drastically reduce the running time"
       ],
-      "img": "/images/6-degrees.png"
+      "img": "/assets/6-degrees.png"
     }
   },
   "education": {
