@@ -15,9 +15,7 @@ script:
 
 after_success:
   - echo "zuqichen.com" > dist/CNAME
-  - cp README.md dist
   - cp .travis.yml dist
-  - cp LICENSE dist
 
 deploy:
   provider: pages
