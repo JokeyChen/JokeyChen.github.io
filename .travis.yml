@@ -1,5 +1,8 @@
 language: node_js
 
+node_js:
+  - "6"
+
 branches:
   only:
     - develop
@@ -7,9 +10,8 @@ branches:
 before_script:
   - npm install -g harp
 script:
-
-after_success:
   - harp compile -o dist
+after_success:
   - echo "zuqichen.com" > dist/CNAME
   - cp README.md dist
 
