@@ -4,7 +4,7 @@
       "date": "April 2017",
       "name": "gsjs (GradeSource web scraper)",
       "tools": "Node.js, ava",
-      "bullets": [
+      "highlights": [
         "Get course info and grades from given GradeSource url",
         "Output data as JSON",
         "Test Driven Development (TDD) using ava test framework",
@@ -17,7 +17,7 @@
       "date": "May 2017",
       "name": "Personal Portfolio Website",
       "tools": "HTML, CSS (Sass), JavaScript, Harp",
-      "bullets": [
+      "highlights": [
         "Mobile-first and responsive static site",
         "Use Sass to preprocess the stylesheets",
         "Use Animate.css to move elements around",
@@ -31,7 +31,7 @@
       "date": "March 2017",
       "name": "GradeBook Rest API",
       "tools": "Node.js, Express.js, Firebase",
-      "bullets": [
+      "highlights": [
         "Perform CRUD operations on users and their grades",
         "Store normalized data on Firebase Realtime database",
         "Authenticate clients by JSON web token (JWT)",
@@ -44,7 +44,7 @@
       "date": "July 2016",
       "name": "Tic Tac Toe Game",
       "tools": "Ruby",
-      "bullets": [
+      "highlights": [
         "A command line version of the Tic Tac Toe game",
         "Use plain Ruby",
         "Design from scratch"
@@ -56,7 +56,7 @@
       "date": "May 2016 - June 2016",
       "name": "6 Degrees of Kevin Bacon (academic)",
       "tools": "C++",
-      "bullets": [
+      "highlights": [
         "Explore the degrees of separation between Hollywood actors that act in the same movies",
         "Find the earliest year two actors collaborated",
         "Use a huge actor lists parsed from IMDB database",
@@ -90,7 +90,7 @@
       "name": "Undergraduate CSE Tutor for Prof. Rick Ord",
       "company": "Computer Science and Engineering @ UC San Diego",
       "description": "Tutoring for CSE 30: Computer Architecture and System Programming and CSE 11: Introduction to Computer Science and OOP: Java",
-      "bullets": [
+      "highlights": [
         "Guide students through their SPARC assembly, C, and Java programming assignments",
         "Proctor quizzes and exams",
         "Grade students programming assignments"
@@ -100,7 +100,7 @@
   "skills": {
     "programming": {
       "name": "Programming Languages & Tools",
-      "bullets": [
+      "highlights": [
         "Java",
         "Python",
         "C/C++",
@@ -118,7 +118,7 @@
     },
     "design-photography": {
       "name": "Design & Photography",
-      "bullets": [
+      "highlights": [
         "Adobe Lightroom",
         "Adobe Photoshop",
         "Sketch"
@@ -126,7 +126,7 @@
     },
     "others": {
       "name": "Others",
-      "bullets": [
+      "highlights": [
         "Rubik's Cube",
         "Piano"
       ]

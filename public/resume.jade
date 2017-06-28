@@ -19,8 +19,8 @@ section.section.resume-page
                     for tool in project.tools.split(',')
                       span.tag #{tool}
                     ul
-                      for bullet in project.bullets
-                        li #{bullet}
+                      for highlight in project.highlights
+                        li #{highlight}
                       
                     small #{project.date}
                 
@@ -64,8 +64,8 @@ section.section.resume-page
                     p #{exp.company}
                     p #{exp.description}
                     ul
-                      for bullet in exp.bullets
-                        li #{bullet}
+                      for highlight in exp.highlights
+                        li #{highlight}
                     small #{exp.date}
     
     section.section#skills
@@ -80,8 +80,8 @@ section.section.resume-page
                   p.card-header-title #{skill.name}
                 .card-content
                   .content
-                    for bullet in skill.bullets
-                      span.tag #{bullet}
+                    for highlight in skill.highlights
+                      span.tag #{highlight}
 
     .content.has-text-centered
       a(href="assets/zuqi-chen-resume.pdf") Download PDF
