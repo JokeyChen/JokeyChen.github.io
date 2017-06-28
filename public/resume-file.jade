@@ -1,0 +1,82 @@
+h1 #{public._data.basics.name}
+
+p #{public._data.basics.summary}
+
+h2 Contact
+
+h3 Website
+p #{public._data.basics.website}
+
+h3 Email
+p #{public._data.basics.email}
+
+h3 Phone
+p #{public._data.basics.phone}
+
+
+h2 Location
+
+h3 Address
+p #{public._data.basics.location.address}
+
+h3 City
+p #{public._data.basics.location.city}
+
+h3 State
+p #{public._data.basics.location.state}
+
+h3 Zip
+p #{public._data.basics.location.zip}
+
+
+h2 Profiles
+
+for profile in public._data.basics.social
+  h3 #{profile.network}
+  p #{profile.url}
+  
+  
+h2 Experience
+
+for exp in public._data.experience  
+  p #{exp.name}
+  p #{exp.company}
+  p #{exp.description}
+  ul
+    for highlight in exp.highlights
+      li #{highlight}
+  small #{exp.date}
+  
+h2 Projects
+
+for project in public._data.projects
+  p #{project.name}
+      
+  for keyword in project.keywords
+    span.tag #{keyword}
+  ul
+    for highlight in project.highlights
+      li #{highlight}
+    
+  small #{project.date}
+
+
+h2 Education
+
+for edu in public._data.education
+  p #{edu.name}
+  p Major: #{edu.major}
+  p GPA: #{edu.gpa}
+  p Related coursework:
+  ul
+    for course in edu.courses
+      li #{course}
+  small #{edu.date}
+  
+  
+h2 Skills
+
+for skill in public._data.skills
+  p.card-header-title #{skill.name}
+  for highlight in skill.highlights
+    span.tag #{highlight}
