@@ -9,7 +9,7 @@
 Visit at www.zuqichen.com
 
 ## Develop
-See the documentation at [Harpjs](www.harpjs.com) on how to develop this site
+See the documentation at [Harpjs](http://www.harpjs.com/) on how to develop this site
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
