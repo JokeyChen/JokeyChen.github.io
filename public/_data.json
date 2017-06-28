@@ -1,4 +1,7 @@
 {
+  "resume-file": {
+    "layout": false
+  },
   "basics": {
     "name": "Zuqi Chen",
     "email": "me@zuqichen.com",
