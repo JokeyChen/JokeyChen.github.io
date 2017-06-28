@@ -3,7 +3,7 @@
     "gsjs": {
       "date": "April 2017",
       "name": "gsjs (GradeSource web scraper)",
-      "tools": "Node.js, ava",
+      "keywords": ["Node.js", "ava"],
       "highlights": [
         "Get course info and grades from given GradeSource url",
         "Output data as JSON",
@@ -16,7 +16,7 @@
     "portfolio-website": {
       "date": "May 2017",
       "name": "Personal Portfolio Website",
-      "tools": "HTML, CSS (Sass), JavaScript, Harp",
+      "keywords": ["HTML", "CSS (Sass)", "JavaScript", "Harp"],
       "highlights": [
         "Mobile-first and responsive static site",
         "Use Sass to preprocess the stylesheets",
@@ -30,7 +30,7 @@
     "gradebook-api": {
       "date": "March 2017",
       "name": "GradeBook Rest API",
-      "tools": "Node.js, Express.js, Firebase",
+      "keywords": ["Node.js", "Express.js", "Firebase"],
       "highlights": [
         "Perform CRUD operations on users and their grades",
         "Store normalized data on Firebase Realtime database",
@@ -43,7 +43,7 @@
     "tic-tac-toe": {
       "date": "July 2016",
       "name": "Tic Tac Toe Game",
-      "tools": "Ruby",
+      "keywords": ["Ruby"],
       "highlights": [
         "A command line version of the Tic Tac Toe game",
         "Use plain Ruby",
@@ -55,7 +55,7 @@
     "six-degree": {
       "date": "May 2016 - June 2016",
       "name": "6 Degrees of Kevin Bacon (academic)",
-      "tools": "C++",
+      "keywords": ["C++"],
       "highlights": [
         "Explore the degrees of separation between Hollywood actors that act in the same movies",
         "Find the earliest year two actors collaborated",

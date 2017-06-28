@@ -16,8 +16,8 @@ section.section.resume-page
                     img(src="#{project.img}" alt="project image")
                 .card-content
                   .content 
-                    for tool in project.tools.split(',')
-                      span.tag #{tool}
+                    for keyword in project.keywords
+                      span.tag #{keyword}
                     ul
                       for highlight in project.highlights
                         li #{highlight}
