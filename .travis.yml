@@ -5,12 +5,14 @@ node_js:
 
 branches:
   only:
-    - develop
+  - develop
 
-before_script:
+install:
   - npm install -g harp
+
 script:
   - harp compile -o dist
+
 after_success:
   - echo "zuqichen.com" > dist/CNAME
   - cp README.md dist
