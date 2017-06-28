@@ -1,11 +1,11 @@
+branches:
+  only:
+    - develop
+
 language: node_js
 
 node_js:
   - "6"
-
-branches:
-  only:
-  - develop
 
 install:
   - npm install -g harp
