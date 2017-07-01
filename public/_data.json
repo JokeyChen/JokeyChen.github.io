@@ -1,7 +1,4 @@
 {
-  "resume-file": {
-    "layout": false
-  },
   "basics": {
     "name": "Zuqi Chen",
     "email": "me@zuqichen.com",
@@ -102,7 +99,7 @@
       "date": "September 2014 - December 2018 (expected)",
       "name": "University of California, San Diego",
       "major": "B.S. Computer Science",
-      "gpa": "3.5 / 4.0",
+      "gpa": "3.41 / 4.0",
       "courses": [
         "Introduction to Computer Science and OOP: Java",
         "Basic Data Structures and Object-Oriented Design",
@@ -110,22 +107,19 @@
         "Design and Analysis of Algorithms",
         "Software Engineering",
         "Computer Organization and Systems Programming",
-        "Principles of Computer Operating Systems",
-        "Programming Languages: Principles and Paradigms",
-        "Intro to Artificial Intelligence: Search and Reasoning"
+        "Principles of Computer Operating Systems"
       ]
     }
   },
   "experience": {
     "tutor": {
-      "date": "March 2016 - Present",
+      "date": "March 2016 - June 2017",
       "name": "Undergraduate CSE Tutor for Prof. Rick Ord",
       "company": "Computer Science and Engineering @ UC San Diego",
-      "description": "Tutoring for CSE 30: Computer Architecture and System Programming and CSE 11: Introduction to Computer Science and OOP: Java",
+      "description": "Tutoring for two undergraduate CSE programming classes",
       "highlights": [
-        "Guide students through their SPARC assembly, C, and Java programming assignments",
-        "Proctor quizzes and exams",
-        "Grade students programming assignments"
+        "Guide students through their Java, C and assembly programming assignments",
+        "Proctor exams and grade programming assignments"
       ]
     }
   },
@@ -137,10 +131,9 @@
         "Python",
         "C/C++",
         "HTML, CSS, JavaScript",
-        "MongoDB",
+        "MySQL",
         "Express.js",
         "Node.js",
-        "Vue.js",
         "Ruby",
         "Firebase",
         "SPARC Assembly",
