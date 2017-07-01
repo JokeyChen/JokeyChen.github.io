@@ -112,6 +112,13 @@
     }
   },
   "experience": {
+    "tencent": {
+      "date": "July 2017 - September 2017",
+      "name": "Incoming Data Analysis Intern",
+      "company": "Tencent",
+      "description": "Working on data analysis with big data",
+      "highlights": []
+    },
     "tutor": {
       "date": "March 2016 - June 2017",
       "name": "Undergraduate CSE Tutor for Prof. Rick Ord",
