@@ -1,0 +1,117 @@
+experience:
+  -
+    name: Software Engineering Intern
+    date: July 2017 - September 2017
+    company: Tencent
+    highlights:
+      - Implement http asynchronous concurrent request plugins for advertising data recommendation service
+    show: true
+  -
+    name: Undergraduate CSE Tutor for Prof. Rick Ord
+    date: March 2016 - June 2017
+    company: Computer Science and Engineering @ UC San Diego
+    highlights:
+      - Guide students through their Java, C and assembly programming assignments
+      - Proctor exams and grade programming assignments
+    show: true
+
+projects:
+  -
+    url: https://github.com/JokeyChen/messagehub
+    date: July 2017
+    name: MessageHub
+    highlights:
+      - Store text data on the server
+      - Get a unique random key
+      - Retrieve the stored message using the key
+      - The message get deleted automatically after 30 minutes
+    keywords:
+      - Ruby on Rails
+    show: true
+  -
+    url: https://github.com/JokeyChen/gsjs
+    date: April 2017
+    name: gsjs (GradeSource web scraper)
+    highlights:
+      - Get course info and grades from given GradeSource url
+      - Output data as JSON
+      - Test Driven Development (TDD) using ava test framework
+      - Hundreds of downloads on npm
+    keywords:
+      - Node.js
+      - ava
+    show: true
+  -
+    url: https://github.com/JokeyChen/JokeyChen.github.io
+    date: July 2017
+    name: Personal website
+    highlights:
+      - Preprocess the stylesheets with Sass
+      - Use gulp.js to automate the build process
+      - Deploy automatically to GitHub Pages using Travis CI
+    keywords:
+      - HTML
+      - CSS (Sass)
+      - JavaScript
+      - gulp.js
+    show: true
+  -
+    url: https://github.com/JokeyChen/gradebook-api
+    date: March 2017
+    name: GradeBook Rest API
+    highlights:
+      - Perform CRUD operations on users and their grades
+      - Store normalized data on Firebase Realtime database
+      - Authenticate clients by JSON web token (JWT)
+    keywords:
+      - Node.js
+      - Express
+      - Firebase
+    show: true
+  -
+    date: May 2016 - June 2016
+    name: 6 Degrees of Kevin Bacon (academic)
+    highlights:
+      - Explore the degrees of separation between Hollywood actors that act in the same movies
+      - Find the earliest year two actors collaborated
+      - Implement using graphs and unions, which drastically reduce the running time
+    keywords:
+      - C++
+    show: true
+
+education:
+  -
+    date: September 2014 - December 2018 (expected)
+    name: University of California, San Diego
+    major: B.S. Computer Science
+    gpa: 3.41 / 4.0
+    courses:
+      - 'Introduction to Computer Science and OOP: Java'
+      - Basic Data Structures and Object-Oriented Design
+      - Advanced Data Structure
+      - Design and Analysis of Algorithms
+      - Software Engineering
+      - Computer Organization and Systems Programming
+      - Principles of Computer Operating Systems
+
+languages:
+  - Java
+  - Python
+  - C/C++
+  - HTML
+  - CSS
+  - JavaScript
+  - SQL
+  - Ruby
+
+tools:
+  - Node.js
+  - Express
+  - Ruby on Rails
+  - Firebase
+  - Adobe Photoshop
+  - Sketch
+
+others:
+  - Rubik's Cube
+  - Piano
