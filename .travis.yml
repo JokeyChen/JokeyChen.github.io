@@ -9,8 +9,10 @@ node_js:
 
 install:
   - npm install -g harp
+  - npm install -g yamljs
 
 script:
+  - yaml2json public/_data.yml -p -s
   - harp compile -o dist
 
 after_success:
@@ -28,3 +30,4 @@ deploy:
 
 after_deploy:
   - rm -rf dist
+  - rm public/_data.json
