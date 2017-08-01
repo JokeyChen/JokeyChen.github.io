@@ -1,14 +1,4 @@
-nav.navbar#navbar
-  .navbar-brand
-    a.navbar-item(href="/") Zuqi Chen
-  
-    .navbar-burger.burger(:class="{ 'is-active': isActive }" @click="toggleNav")
-      span
-      span
-      span
-      
-  .navbar-menu(:class="{ 'is-active': isActive }")
-    .navbar-end
-      a.navbar-item(href="/") Home
-      a.navbar-item(href="/about") About
-      a.navbar-item(href="/resume") Resume
+nav
+  a(href="/") home
+  a(href="/about") about
+  a(href="/blog") blog

@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.main {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+}

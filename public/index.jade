@@ -1,9 +1,58 @@
-section.index-page.hero.is-fullheight
-  .hero-body.has-text-centered
-    .container.welcome.animated.fadeInUpBig
-      h1.title Hello. I am Zuqi
-      h2.subtitle I am a #[span#me ]#[span.typed-cursor]
-      span.icon
-        a(href="https://www.linkedin.com/in/zuqi-chen-2ab61b109"): i.fa.fa-linkedin
-        a(href="https://github.com/jokeychen"): i.fa.fa-github
-        a(href="https://www.instagram.com/jokeychen/"): i.fa.fa-instagram
+.heading
+  h1.title Hello. I am Zuqi
+  p.subtitle I am a #[span#me ]#[span.typed-cursor]
+
+section
+  h2.title Experience
+  for job in public._data.experience
+    .card
+      p #[strong #{job.company}]
+      p #{job.date}
+      p #{job.name}
+      ul.highlights
+        for highlight in job.highlights
+          li &#9656; #{highlight}
+section
+  h2.title Projects
+  for project in public._data.projects
+    if project.show
+      .card
+        if project.url
+          a(href="#{project.url}") #{project.name}
+        else
+          p #[strong #{project.name}]
+        p #{project.date}
+        ul.highlights
+          for highlight in project.highlights
+            li &#9656; #{highlight}
+        
+        for keyword in project.keywords
+          p #[span.tag #{keyword}]
+          
+section
+  h2.title Skills
+  .card
+    p.title Languages
+    for language in public._data.languages
+      p #[span.tag #{language}]
+            
+  .card
+    p.title Tools
+    for tool in public._data.tools
+      p #[span.tag #{tool}]
+
+  .card
+    p.title Others
+    for other in public._data.others
+      p #[span.tag #{other}]
+
+script.
+  document.addEventListener("DOMContentLoaded", function(){
+    Typed.new("#me", {
+      strings: ["software engineer.", "web developer.", "travel photographer."],
+      startDelay: 1000,
+      backDelay: 2000,
+      typeSpeed: 30,
+      loop: true
+    });
+  });

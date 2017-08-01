@@ -6,24 +6,13 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title #{title}
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
-    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.min.css")
-    link(rel="stylesheet" href="/css/vendors/animate.css")
     link(rel="stylesheet" href="/css/main.css")
   body
-    != partial("_shared/navbar")
-    != yield
+    .flex-container
+      .sidebar
+        != partial("_shared/navbar")
+      .main
+        != yield
     script(src="https://unpkg.com/vue")
-    script(type="text/javascript" src="/js/toggle-menu.js")
+    //- script(type="text/javascript" src="/js/toggle-menu.js")
     script(type="text/javascript" src="/js/typed.min.js")
-    //- Only show typer effect on index page
-    if current.source == 'index'
-      script.
-        document.addEventListener("DOMContentLoaded", function(){
-          Typed.new("#me", {
-            strings: ["software engineer.", "web developer.", "travel photographer."],
-            startDelay: 1000,
-            backDelay: 2000,
-            typeSpeed: 30,
-            loop: true
-          });
-        });
