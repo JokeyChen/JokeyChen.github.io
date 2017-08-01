@@ -7,3 +7,14 @@ section.index-page.hero.is-fullheight
         a(href="https://www.linkedin.com/in/zuqi-chen-2ab61b109"): i.fa.fa-linkedin
         a(href="https://github.com/jokeychen"): i.fa.fa-github
         a(href="https://www.instagram.com/jokeychen/"): i.fa.fa-instagram
+
+script.
+  document.addEventListener("DOMContentLoaded", function(){
+    Typed.new("#me", {
+      strings: ["software engineer.", "web developer.", "travel photographer."],
+      startDelay: 1000,
+      backDelay: 2000,
+      typeSpeed: 30,
+      loop: true
+    });
+  });

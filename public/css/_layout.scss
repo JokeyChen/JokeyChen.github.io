@@ -1,0 +1,33 @@
+nav.nav .nav-left a {
+  font-size: 1.5em;
+}
+
+// Index Page
+.index-page {
+  // Main hero section
+  .welcome {
+    h1 {
+      font-size: 4em;
+    }
+    h2 {
+      padding: 1.1em 0;
+    }
+    span.icon {
+      a {
+        padding: 0 1em;
+      }
+    }
+  }
+}
+
+// About Page
+.about-page {
+  .profile {
+    border-radius: 1em;
+  }
+
+  p {
+    padding: 1em 0;
+    line-height: 2em;
+  }
+}

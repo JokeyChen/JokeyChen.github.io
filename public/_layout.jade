@@ -15,15 +15,3 @@ html
     script(src="https://unpkg.com/vue")
     script(type="text/javascript" src="/js/toggle-menu.js")
     script(type="text/javascript" src="/js/typed.min.js")
-    //- Only show typer effect on index page
-    if current.source == 'index'
-      script.
-        document.addEventListener("DOMContentLoaded", function(){
-          Typed.new("#me", {
-            strings: ["software engineer.", "web developer.", "travel photographer."],
-            startDelay: 1000,
-            backDelay: 2000,
-            typeSpeed: 30,
-            loop: true
-          });
-        });
