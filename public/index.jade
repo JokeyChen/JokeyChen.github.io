@@ -27,7 +27,7 @@ section.index-page
           ul
             for highlight in project.highlights
               li #{highlight}
-          p
+          p.tags
             for keyword in project.keywords
               | #[span.tag #{keyword}]
             
@@ -35,17 +35,17 @@ section.index-page
     h2 Skills
     .box
       p.title #[strong Languages]
-      p
+      p.tags
         for language in public._data.languages
           | #[span.tag #{language}]  
     .box
       p.title #[strong Tools]
-      p
+      p.tags
         for tool in public._data.tools
           | #[span.tag #{tool}]
     .box
       p.title #[strong Others]
-      p
+      p.tags
         for other in public._data.others
           | #[span.tag #{other}]
 
