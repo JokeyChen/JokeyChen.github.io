@@ -1,1 +1,17 @@
-@import "minireset";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body {
+  margin: 0 auto;
+  max-width: 75%;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: $body-color;
+}
+
+h1, h2, strong {
+  color: $heading-color;
+}
+
+a {
+  color: $primary-color;
+}

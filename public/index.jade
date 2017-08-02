@@ -11,7 +11,7 @@ section
       p #{job.name}
       ul.highlights
         for highlight in job.highlights
-          li &#9656; #{highlight}
+          li #{highlight}
 section
   h2.title Projects
   for project in public._data.projects
@@ -24,7 +24,7 @@ section
         p #{project.date}
         ul.highlights
           for highlight in project.highlights
-            li &#9656; #{highlight}
+            li #{highlight}
         
         for keyword in project.keywords
           p #[span.tag #{keyword}]
