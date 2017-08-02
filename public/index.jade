@@ -1,12 +1,56 @@
-section.index-page.hero.is-fullheight
-  .hero-body.has-text-centered
-    .container.welcome.animated.fadeInUpBig
-      h1.title Hello. I am Zuqi
-      h2.subtitle I am a #[span#me ]#[span.typed-cursor]
-      span.icon
-        a(href="https://www.linkedin.com/in/zuqi-chen-2ab61b109"): i.fa.fa-linkedin
-        a(href="https://github.com/jokeychen"): i.fa.fa-github
-        a(href="https://www.instagram.com/jokeychen/"): i.fa.fa-instagram
+section.index-page
+  .heading
+    h1 Hello. I am Zuqi
+    p I am a #[span#me ]#[span.typed-cursor]
+
+  section
+    h2 Experience
+    for job in public._data.experience
+      .box
+        .level
+          p.title #[strong #{job.company}]
+          p #{job.date}
+        p #{job.name}
+        ul
+          for highlight in job.highlights
+            li #{highlight}
+  section
+    h2 Projects
+    for project in public._data.projects
+      if project.show
+        .box
+          .level
+            p.title
+              if project.url
+                a(href="#{project.url}") #{project.name}
+              else
+                strong #{project.name}
+            p #{project.date}
+          ul
+            for highlight in project.highlights
+              li #{highlight}
+          p.tags
+            for keyword in project.keywords
+              | #[span.tag #{keyword}]
+            
+  section
+    h2 Skills
+    .skills
+      .box
+        p.title #[strong Languages]
+        p.tags
+          for language in public._data.languages
+            | #[span.tag #{language}]  
+      .box
+        p.title #[strong Tools]
+        p.tags
+          for tool in public._data.tools
+            | #[span.tag #{tool}]
+      .box
+        p.title #[strong Others]
+        p.tags
+          for other in public._data.others
+            | #[span.tag #{other}]
 
 script.
   document.addEventListener("DOMContentLoaded", function(){

@@ -1,16 +1,19 @@
 experience:
   -
     name: Software Engineering Intern
-    date: July 2017 - September 2017
+    date: July 2017 - Present
     company: Tencent
     highlights:
-      - Implement http asynchronous concurrent request plugins for advertising data recommendation service
+      - Implement http asynchronous concurrent request plugins for advertising recommendation service
+      - Fix numerous bugs in the existing project
+      - Write documentation for the service
     show: true
   -
-    name: Undergraduate CSE Tutor for Prof. Rick Ord
+    name: Undergraduate CSE Tutor
     date: March 2016 - June 2017
-    company: Computer Science and Engineering @ UC San Diego
+    company: UC San Diego
     highlights:
+      - Tutor for two undergraduate programming classes instructed by Prof. Rick Ord
       - Guide students through their Java, C and assembly programming assignments
       - Proctor exams and grade programming assignments
     show: true
@@ -18,16 +21,19 @@ experience:
 projects:
   -
     url: https://github.com/JokeyChen/messagehub
-    date: July 2017
+    date: July 2017 - August 2017
     name: MessageHub
     highlights:
-      - Store text data on the server
-      - Get a unique random key
-      - Retrieve the stored message using the key
-      - The message get deleted automatically after 30 minutes
+      - An express API which stores and retrieves messages against a MongoDB database
+      - The API generates a unique random key which can be used to retrieve the stored message
+      - A single page front end web application which makes API call to the backend
     keywords:
+      - Vue.js
+      - Express
+      - Node.js
+      - MongoDB
       - Ruby on Rails
-    show: true
+    show: false
   -
     url: https://github.com/JokeyChen/gsjs
     date: April 2017
@@ -39,21 +45,19 @@ projects:
       - Hundreds of downloads on npm
     keywords:
       - Node.js
-      - ava
     show: true
   -
     url: https://github.com/JokeyChen/JokeyChen.github.io
-    date: July 2017
+    date: September 2016 - Present
     name: Personal website
     highlights:
       - Preprocess the stylesheets with Sass
-      - Use gulp.js to automate the build process
+      - Use harp.js to automate the build process
       - Deploy automatically to GitHub Pages using Travis CI
     keywords:
       - HTML
-      - CSS (Sass)
+      - CSS
       - JavaScript
-      - gulp.js
     show: true
   -
     url: https://github.com/JokeyChen/gradebook-api

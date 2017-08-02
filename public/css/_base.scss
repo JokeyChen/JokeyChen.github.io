@@ -1,8 +1,21 @@
+@import 'https://fonts.googleapis.com/css?family=Maven+Pro';
 body {
-  color: $primary-color;
+  margin: 0 auto;
+  max-width: 75%;
+  font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: $body-color;
 }
 
-h1 {
-  font-size: 3em;
-  padding-top: 1em;
+h1, h2, strong {
+  color: $heading-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
