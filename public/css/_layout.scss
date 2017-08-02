@@ -16,15 +16,12 @@ nav {
   }
 }
 
-ul {
-  padding-left: 1rem;
-}
-
 .tag {
   background-color: hsl(0, 0%, 96%);
   border-radius: 5px;
   padding: 3px 5px;
   margin: 0 5px;
+  display: inline-flex;
 }
 
 .card {

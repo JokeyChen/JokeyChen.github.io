@@ -33,24 +33,21 @@ section.index-page
             
   section
     h2 Skills
-    .flex-container
-      .card
-        p.title #[strong Languages]
-        ul
-          for language in public._data.languages
-            li #{language}
-                
-      .card
-        p.title #[strong Tools]
-        ul
-          for tool in public._data.tools
-            li #{tool}
-
-      .card
-        p.title #[strong Others]
-        ul
-          for other in public._data.others
-            li #{other}
+    .box
+      p.title #[strong Languages]
+      p
+        for language in public._data.languages
+          | #[span.tag #{language}]  
+    .box
+      p.title #[strong Tools]
+      p
+        for tool in public._data.tools
+          | #[span.tag #{tool}]
+    .box
+      p.title #[strong Others]
+      p
+        for other in public._data.others
+          | #[span.tag #{other}]
 
   script.
     document.addEventListener("DOMContentLoaded", function(){
