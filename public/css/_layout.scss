@@ -1,6 +1,29 @@
 nav {
   text-align: center;
   a {
-    margin: 0 20px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    width: 20%;
+  }
+  .main {
+    width: 80%;
+  }
+  nav {
+    position: fixed;
+    top: 70px;
+    left: 15%;
+    text-align: right;
+    a {
+      display: block;
+      padding: 20px 0;
+    }
   }
 }
