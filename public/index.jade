@@ -35,21 +35,22 @@ section.index-page
             
   section
     h2 Skills
-    .box
-      p.title #[strong Languages]
-      p.tags
-        for language in public._data.languages
-          | #[span.tag #{language}]  
-    .box
-      p.title #[strong Tools]
-      p.tags
-        for tool in public._data.tools
-          | #[span.tag #{tool}]
-    .box
-      p.title #[strong Others]
-      p.tags
-        for other in public._data.others
-          | #[span.tag #{other}]
+    .skills
+      .box
+        p.title #[strong Languages]
+        p.tags
+          for language in public._data.languages
+            | #[span.tag #{language}]  
+      .box
+        p.title #[strong Tools]
+        p.tags
+          for tool in public._data.tools
+            | #[span.tag #{tool}]
+      .box
+        p.title #[strong Others]
+        p.tags
+          for other in public._data.others
+            | #[span.tag #{other}]
 
   script.
     document.addEventListener("DOMContentLoaded", function(){
