@@ -10,7 +10,7 @@ section.index-page
         p.title #[strong #{job.company}]
         p #{job.date}
         p #{job.name}
-        ul.highlights
+        ul
           for highlight in job.highlights
             li #{highlight}
   section
@@ -24,7 +24,7 @@ section.index-page
             else
               strong #{project.name}
           p #{project.date}
-          ul.highlights
+          ul
             for highlight in project.highlights
               li #{highlight}
           p

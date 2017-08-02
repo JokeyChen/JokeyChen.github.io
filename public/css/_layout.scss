@@ -11,12 +11,13 @@ nav {
   margin: 20px 0;
   padding: 0 1.2rem;
   box-shadow: 1px 1px $border-color;
-  .highlights {
-    padding-left: 1rem;
-  }
   .title {
     text-align: center;
   }
+}
+
+ul {
+  padding-left: 1rem;
 }
 
 .tag {
