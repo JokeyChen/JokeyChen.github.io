@@ -29,17 +29,6 @@ ul, ol {
   display: inline-flex;
 }
 
-.card {
-  border: 1px solid $border-color;
-  border-radius: 5px;
-  margin: 20px 0;
-  padding: 0 1.2rem;
-  box-shadow: 1px 1px $border-color;
-  .title {
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 400px) {
   nav {
     a {
@@ -68,5 +57,9 @@ ul, ol {
       display: block;
       padding: 20px 0;
     }
+  }
+  .level {
+    display: flex;
+    justify-content: space-between;
   }
 }

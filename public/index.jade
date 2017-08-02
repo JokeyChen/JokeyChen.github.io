@@ -7,8 +7,9 @@ section.index-page
     h2 Experience
     for job in public._data.experience
       .box
-        p.title #[strong #{job.company}]
-        p #{job.date}
+        .level
+          p.title #[strong #{job.company}]
+          p #{job.date}
         p #{job.name}
         ul
           for highlight in job.highlights
@@ -18,12 +19,13 @@ section.index-page
     for project in public._data.projects
       if project.show
         .box
-          p.title
-            if project.url
-              a(href="#{project.url}") #{project.name}
-            else
-              strong #{project.name}
-          p #{project.date}
+          .level
+            p.title
+              if project.url
+                a(href="#{project.url}") #{project.name}
+              else
+                strong #{project.name}
+            p #{project.date}
           ul
             for highlight in project.highlights
               li #{highlight}
