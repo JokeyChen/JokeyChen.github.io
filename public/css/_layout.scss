@@ -1,7 +1,15 @@
 nav {
   text-align: center;
   a {
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  nav {
+    a {
+      padding: 0 20px;
+    }
   }
 }
 
