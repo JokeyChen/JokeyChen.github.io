@@ -52,13 +52,13 @@ section.index-page
           for other in public._data.others
             | #[span.tag #{other}]
 
-  script.
-    document.addEventListener("DOMContentLoaded", function(){
-      Typed.new("#me", {
-        strings: ["software engineer.", "web developer.", "travel photographer."],
-        startDelay: 1000,
-        backDelay: 2000,
-        typeSpeed: 30,
-        loop: true
-      });
+script.
+  document.addEventListener("DOMContentLoaded", function(){
+    Typed.new("#me", {
+      strings: ["software engineer.", "web developer.", "travel photographer."],
+      startDelay: 1000,
+      backDelay: 2000,
+      typeSpeed: 30,
+      loop: true
     });
+  });
