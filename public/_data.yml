@@ -33,7 +33,7 @@ projects:
       - Node.js
       - MongoDB
       - Ruby on Rails
-    show: true
+    show: false
   -
     url: https://github.com/JokeyChen/gsjs
     date: April 2017
@@ -48,7 +48,7 @@ projects:
     show: true
   -
     url: https://github.com/JokeyChen/JokeyChen.github.io
-    date: July 2017
+    date: September 2016 - Present
     name: Personal website
     highlights:
       - Preprocess the stylesheets with Sass
