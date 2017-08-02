@@ -1,51 +1,56 @@
 section.index-page
   .heading
-    h1.title Hello. I am Zuqi
-    p.subtitle I am a #[span#me ]#[span.typed-cursor]
+    h1 Hello. I am Zuqi
+    p I am a #[span#me ]#[span.typed-cursor]
 
   section
-    h2.title Experience
+    h2 Experience
     for job in public._data.experience
-      .card
-        p #[strong #{job.company}]
+      .box
+        p.title #[strong #{job.company}]
         p #{job.date}
         p #{job.name}
         ul.highlights
           for highlight in job.highlights
             li #{highlight}
   section
-    h2.title Projects
+    h2 Projects
     for project in public._data.projects
       if project.show
-        .card
-          if project.url
-            a(href="#{project.url}") #{project.name}
-          else
-            p #[strong #{project.name}]
+        .box
+          p.title
+            if project.url
+              a(href="#{project.url}") #{project.name}
+            else
+              strong #{project.name}
           p #{project.date}
           ul.highlights
             for highlight in project.highlights
               li #{highlight}
-          
-          for keyword in project.keywords
-            p #[span.tag #{keyword}]
+          p
+            for keyword in project.keywords
+              | #[span.tag #{keyword}]
             
   section
-    h2.title Skills
-    .card
-      p.title Languages
-      for language in public._data.languages
-        p #[span.tag #{language}]
-              
-    .card
-      p.title Tools
-      for tool in public._data.tools
-        p #[span.tag #{tool}]
+    h2 Skills
+    .flex-container
+      .card
+        p.title #[strong Languages]
+        ul
+          for language in public._data.languages
+            li #{language}
+                
+      .card
+        p.title #[strong Tools]
+        ul
+          for tool in public._data.tools
+            li #{tool}
 
-    .card
-      p.title Others
-      for other in public._data.others
-        p #[span.tag #{other}]
+      .card
+        p.title #[strong Others]
+        ul
+          for other in public._data.others
+            li #{other}
 
   script.
     document.addEventListener("DOMContentLoaded", function(){

@@ -5,6 +5,38 @@ nav {
   }
 }
 
+.box {
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 0 1.2rem;
+  box-shadow: 1px 1px $border-color;
+  .highlights {
+    padding-left: 1rem;
+  }
+  .title {
+    text-align: center;
+  }
+}
+
+.tag {
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 0 5px;
+}
+
+.card {
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 0 1.2rem;
+  box-shadow: 1px 1px $border-color;
+  .title {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 400px) {
   nav {
     a {
@@ -13,10 +45,11 @@ nav {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 910px) {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .sidebar {
     width: 20%;
