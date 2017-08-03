@@ -20,8 +20,8 @@ experience:
 
 projects:
   -
-    url: https://github.com/JokeyChen/messagehub
-    date: July 2017 - August 2017
+    url: https://messagehub.surge.sh
+    date: July 2017 - Present
     name: MessageHub
     highlights:
       - An express API which stores and retrieves messages against a MongoDB database
@@ -33,7 +33,7 @@ projects:
       - Node.js
       - MongoDB
       - Ruby on Rails
-    show: false
+    show: true
   -
     url: https://github.com/JokeyChen/gsjs
     date: April 2017
@@ -47,7 +47,7 @@ projects:
       - Node.js
     show: true
   -
-    url: https://github.com/JokeyChen/JokeyChen.github.io
+    url: http://www.zuqichen.com
     date: September 2016 - Present
     name: Personal website
     highlights:
