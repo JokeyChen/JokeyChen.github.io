@@ -6,7 +6,7 @@ nav {
 }
 
 .main {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .box {
@@ -41,7 +41,7 @@ ul, ol {
 }
 
 @media screen and (min-width: 910px) {
-  .flex-container {
+  .container {
     display: flex;
     flex-wrap: wrap;
   }
