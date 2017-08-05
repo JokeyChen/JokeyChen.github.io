@@ -1,3 +1,6 @@
-section.blog-page
+section
   h1 Gallery
-  p Coming soon
+  for image, slug in public._data.gallery
+    .image-group
+      img(src="/images/#{slug}.jpg")
+      p #{image.caption}

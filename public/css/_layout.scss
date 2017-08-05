@@ -32,6 +32,17 @@ ul, ol {
   display: inline-flex;
 }
 
+.image-group {
+  text-align: center;
+  margin-bottom: 2rem;
+  p {
+    margin-top: 0;
+  }
+  img {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 400px) {
   nav {
     a {

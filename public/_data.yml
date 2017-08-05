@@ -119,3 +119,27 @@ tools:
 others:
   - Rubik's Cube
   - Piano
+
+gallery:
+  architecture:
+    caption: Stunning design
+  brooklyn-bridge:
+    caption: Manhattan
+  butterflies:
+    caption: Red and white
+  columbia:
+    caption: New York
+  crosswalk:
+    caption: Crosswalk
+  hong-kong:
+    caption: Victoria Habour
+  la-jolla-shore:
+    caption: Bird
+  mood:
+    caption: Moody
+  road:
+    caption: Road
+  staring:
+    caption: Staring
+  warrior:
+    caption: Warrior
