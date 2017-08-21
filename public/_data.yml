@@ -4,9 +4,9 @@ experience:
     date: July 2017 - Present
     company: Tencent
     highlights:
-      - Implement http asynchronous concurrent request plugins for advertising recommendation service
-      - Fix numerous bugs in the existing project
-      - Write documentation for the service
+      - Implement asynchronous http batch request plugin for the service
+      - Fix numerous bugs in the existing projects
+      - Deploy jupyterhub on coorperate network and write documentation for the project
     show: true
   -
     name: Undergraduate CSE Tutor
@@ -73,6 +73,16 @@ projects:
       - Firebase
     show: true
   -
+    url: https://github.com/JokeyChen/tic-tac-toe
+    name: Tic Tac Toe Game
+    date: July 2016
+    highlights:
+      - A command line version of the Tic Tac Toe game
+      - Design from scratch
+    keywords:
+      - Ruby
+    show: true
+  -
     date: May 2016 - June 2016
     name: 6 Degrees of Kevin Bacon (academic)
     highlights:
@@ -105,11 +115,12 @@ languages:
   - HTML
   - CSS
   - JavaScript
+  - Node
   - SQL
   - Ruby
 
 tools:
-  - Node.js
+  - Vue.js
   - Express
   - Ruby on Rails
   - Firebase
