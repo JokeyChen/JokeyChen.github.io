@@ -1,7 +1,7 @@
 experience:
   -
     name: Software Engineering Intern
-    date: July 2017 - Present
+    date: July 2017 - September 2017
     company: Tencent
     highlights:
       - Implement asynchronous http batch request plugin for the service
@@ -21,7 +21,7 @@ experience:
 projects:
   -
     url: https://messagehub.surge.sh
-    date: July 2017 - Present
+    date: July 2017
     name: MessageHub
     highlights:
       - An express API which stores and retrieves messages against a MongoDB database
