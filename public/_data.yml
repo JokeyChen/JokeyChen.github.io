@@ -4,8 +4,8 @@ experience:
     date: July 2017 - September 2017
     company: Tencent
     highlights:
-      - Implement asynchronous http batch request plugin for the service
-      - Fix numerous bugs in the existing projects
+      - Implement asynchronous http batch request plugin
+      - Fix numerous bugs in existing projects
       - Deploy jupyterhub on coorperate network and write documentation for the project
     show: true
   -
