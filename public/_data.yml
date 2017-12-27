@@ -4,18 +4,18 @@ experience:
     date: July 2017 - September 2017
     company: Tencent
     highlights:
-      - Implement asynchronous http batch request plugin
-      - Fix numerous bugs in existing projects
-      - Deploy jupyterhub on coorperate network and write documentation for the project
+      - Implemented asynchronous http batch request plugin
+      - Fixed numerous bugs in existing projects
+      - Deployed jupyterhub on corperate network and wrote documentation for the project
     show: true
   -
     name: Undergraduate CSE Tutor
     date: March 2016 - June 2017
     company: UC San Diego
     highlights:
-      - Tutor for two undergraduate programming classes instructed by Prof. Rick Ord
-      - Guide students through their Java, C and assembly programming assignments
-      - Proctor exams and grade programming assignments
+      - Tutored for two undergraduate programming classes instructed by Prof. Rick Ord
+      - Guided students through their Java, C and assembly programming assignments
+      - Proctored exams and graded programming assignments
     show: true
 
 projects:
@@ -24,9 +24,9 @@ projects:
     date: July 2017
     name: MessageHub
     highlights:
-      - An express API which stores and retrieves messages against a MongoDB database
-      - The API generates a unique random key which can be used to retrieve the stored message
-      - A single page front end web application which makes API call to the backend
+      - Implemented an API which stores and retrieves messages from a MongoDB database
+      - Generated a unique random key which can be used to retrieve the stored message
+      - Created a single page front end web app which makes API call to the backend
     keywords:
       - Vue.js
       - Express
@@ -39,10 +39,10 @@ projects:
     date: April 2017
     name: gsjs (GradeSource web scraper)
     highlights:
-      - Get course info and grades from given GradeSource url
+      - Implemented a library which gets course info and grades from given GradeSource url
       - Output data as JSON
-      - Test Driven Development (TDD) using ava test framework
-      - Hundreds of downloads on npm
+      - Tested using ava test framework
+      - Got hundreds of downloads on NPM
     keywords:
       - Node.js
     show: true
@@ -51,9 +51,9 @@ projects:
     date: September 2016 - Present
     name: Personal website
     highlights:
-      - Preprocess the stylesheets with Sass
-      - Use harp.js to automate the build process
-      - Deploy automatically to GitHub Pages using Travis CI
+      - Preprocessed the stylesheets with Sass
+      - Used harp.js to automate the build process
+      - Deployed automatically to GitHub Pages using Travis CI
     keywords:
       - HTML
       - CSS
@@ -64,21 +64,21 @@ projects:
     date: March 2017
     name: GradeBook Rest API
     highlights:
-      - Perform CRUD operations on users and their grades
-      - Store normalized data on Firebase Realtime database
-      - Authenticate clients by JSON web token (JWT)
+      - Performed CRUD operations on users and their grades
+      - Stored normalized data on Firebase Realtime database
+      - Authenticated clients by JSON web token (JWT)
     keywords:
       - Node.js
       - Express
       - Firebase
-    show: true
+    show: false
   -
     url: https://github.com/JokeyChen/tic-tac-toe
     name: Tic Tac Toe Game
     date: July 2016
     highlights:
-      - A command line version of the Tic Tac Toe game
-      - Design from scratch
+      - Designed and coded a command line version of the Tic Tac Toe game
+      - Practiced object-oriented programming paradigm
     keywords:
       - Ruby
     show: true
@@ -86,9 +86,9 @@ projects:
     date: May 2016 - June 2016
     name: 6 Degrees of Kevin Bacon (academic)
     highlights:
-      - Explore the degrees of separation between Hollywood actors that act in the same movies
-      - Find the earliest year two actors collaborated
-      - Implement using graphs and unions, which drastically reduce the running time
+      - Coded a program that explores the degrees of separation between Hollywood actors acting in the same movies
+      - Provided a feature that finds the earliest year two actors collaborated
+      - Implemented using graphs and unions, which reduced the running time by half
     keywords:
       - C++
     show: true
