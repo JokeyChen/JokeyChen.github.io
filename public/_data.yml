@@ -4,9 +4,9 @@ experience:
     date: July 2017 - September 2017
     company: Tencent
     highlights:
-      - Implement asynchronous HTTP batch request plugin
-      - Fix numerous bugs in existing projects
-      - Deploy Jupyterhub on corporate network and write documentation for the project
+      - Implemented asynchronous HTTP batch request plugin
+      - Fixed numerous bugs in existing projects
+      - Deployed Jupyterhub on corporate network and write documentation for the project
     show: true
   -
     name: Undergraduate CSE Tutor
