@@ -109,19 +109,21 @@ education:
       - Principles of Computer Operating Systems
 
 languages:
-  - Java
   - Python
+  - Java
   - C/C++
   - HTML
   - CSS
   - JavaScript
-  - Node
+  - Node.js
   - SQL
   - Ruby
 
 tools:
   - Vue.js
-  - Express
+  - React.js
+  - Express.js
+  - React Native
   - Ruby on Rails
   - Firebase
 
