@@ -1,6 +1,17 @@
 experience:
   -
     name: Software Engineering Intern
+    date: June 2018 - Present
+    company: Electronic Arts
+    highlights:
+      - Build a serverless application on AWS to provision and destroy Kubernetes clusters using Terraform
+      - Build the frontend using React
+      - Build the backend using AWS APIGateway, Lambda functions, DynamoDB, and Golang
+      - Support multiple cloud providers including AWS, Google Cloud, and Azure
+      - Shorten the current deployment workflow from up to a week down to a few minutes
+    show: true
+  -
+    name: Software Engineering Intern
     date: July 2017 - September 2017
     company: Tencent
     highlights:
@@ -28,7 +39,7 @@ projects:
       - Generated a unique random key which can be used to retrieve the stored message
       - Created a single page front end web app which makes API call to the backend
     keywords:
-      - Vue.js
+      - Vue
       - Express
       - Node.js
       - MongoDB
@@ -91,7 +102,7 @@ projects:
       - Implemented using graphs and unions, which reduced the running time by half
     keywords:
       - C++
-    show: true
+    show: false
 
 education:
   -
@@ -118,14 +129,19 @@ languages:
   - Node.js
   - SQL
   - Ruby
+  - Go
 
 tools:
-  - Vue.js
-  - React.js
-  - Express.js
+  - React
+  - Express
   - React Native
+  - Vue
   - Ruby on Rails
   - Firebase
+  - AWS
+  - Terraform
+  - Kubernetes
+  - Docker
 
 others:
   - Rubik's Cube
