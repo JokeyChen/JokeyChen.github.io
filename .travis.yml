@@ -1,0 +1,33 @@
+branches:
+  only:
+    - develop
+
+language: node_js
+
+node_js:
+  - "12.16.3"
+
+install:
+  - npm install -g harp
+  - npm install -g yamljs
+
+script:
+  - yaml2json public/_data.yml -p -s
+  - harp compile -o dist
+
+after_success:
+  - echo "zuqichen.com" > dist/CNAME
+  - cp .travis.yml dist
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: dist
+  target_branch: master
+  on:
+    branch: develop
+
+after_deploy:
+  - rm -rf dist
+  - rm public/_data.json
